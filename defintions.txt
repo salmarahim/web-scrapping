@@ -1,0 +1,19 @@
+steps to be done-
+1. create virtual env
+2. install libraries
+3. create scraping file for coding and writing the code
+
+Needed libraries and their functions-
+
+bs4 ( BeautifulSoup ) is a python module, which is famously used for
+parsing text as HTML and then performing actions in it, such as
+finding specific HTML tags with a particular class/id, or listing out 
+all the li tags inside the ul tags.
+
+Selenium, is used to interact with the webpage. It is famously used for
+automation testing,such as testing the functionality of a website
+(Login/Logout/etc.) but can be also used to interact with the page
+such as clicking a button, etc.Since we have to scrape data from
+201 pages, clicking on the button to go to the next page would come in
+handy. Selenium opens up the webpage in a browser.We need a web driver for 
+this.
